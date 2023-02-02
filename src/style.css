@@ -16,7 +16,7 @@ main {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  height: 150vh;
+  height: 120vh;
 
   display: flex;
   flex-direction: column;
