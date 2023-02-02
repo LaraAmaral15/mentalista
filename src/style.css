@@ -73,8 +73,12 @@ div#gif {
   display: none;
 }
 
+#gif img {
+  max-width: 270px;
+}
+
 #input {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 #texto-input {
