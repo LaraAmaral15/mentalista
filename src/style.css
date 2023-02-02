@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+  color: #fff;
+}
+
+main {
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body>img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 350px;
+}
+
+#tentativas {
+  font-size: 18px;
+  color: rgb(173, 163, 163);
+}
+
+#resultado {
+  font-size: 22px;
+}
+
+#gif {
+  margin: 50px auto;
+}
+
+#texto-input {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+#input-chute {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  background-color: #002d5f;
+  border: 1px solid #245081;
+  border-radius: 4px;
+  padding: 5px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+#input-chute:focus {
+  outline: 1px solid #245081;
+}
+
+#botao {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  background-color: #da1e26;
+  border: none;
+  border-radius: 4px;
+  width: 100px; 
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#botao:hover {
+  background-color: #a7171e;
+}
+
+footer {
+  background-color: #031b36;
+  padding-top: 10px;
+}
+
+#social-links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+footer svg {
+  width: 30px;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0e2f5a;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #3264a5;
+  border-radius: 2px;
+}
+
+@media(max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+  main {
+    padding: 0 10px;
+  }
+  
+  #gif {
+    display: flex;
+    justify-content: center;
+  }
+  #gif img {
+    width: 400px;
+  }
+} 
+
+@media(max-width: 410px) {
+  #resultado {
+    font-size: 18px;
+  }
+  #gif img {
+      width: 350px;
+  }
+}
