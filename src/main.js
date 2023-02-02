@@ -2,6 +2,7 @@ var numeroSecreto
 var contador = 0;
 var imgCerebro = document.getElementById("img-cerebro")
 var textoInput = document.getElementById("texto-input")
+var lugarGif = document.getElementById("gif")
 Sortear();
 
 function Sortear() {
@@ -12,14 +13,13 @@ function Sortear() {
 
 function Chutar() {
   textoInput.style.display= 'none';
+  lugarGif.style.display= 'block';
 
   if (chute != numeroSecreto) {
-    console.log(contador);
-
     var tentativas = document.getElementById("tentativas")
     var resultado = document.getElementById("resultado")
     var chute = parseInt(document.getElementById("input-chute").value);
-    var lugarGif = document.getElementById("gif")
+
     console.log(chute)
 
      if (chute > 1000 || chute < 0 || isNaN(chute)) {

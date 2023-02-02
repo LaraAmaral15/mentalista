@@ -68,8 +68,13 @@ img {
   font-size: 22px;
 }
 
-#gif {
+div#gif {
   margin: 50px auto;
+  display: none;
+}
+
+#input {
+  margin-bottom: 50px;
 }
 
 #texto-input {
@@ -159,5 +164,11 @@ footer svg {
   }
   #gif img {
       width: 350px;
+  }
+}
+
+@media(max-width: 380px) {
+  #botao {
+    margin-top: 15px;
   }
 }
