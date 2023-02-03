@@ -5,6 +5,16 @@ var textoInput = document.getElementById("texto-input")
 var lugarGif = document.getElementById("gif")
 Sortear();
 
+
+// Ao precionar a tecla 'Enter', o botão 'Chutar' é clicado
+document.addEventListener("keypress", function(e) {
+
+  if(e.key === 'Enter') {
+    var btnChutar = document.querySelector("#botao");
+    btnChutar.click();  
+  }
+});
+
 function Sortear() {
   if(contador == 0) {
     numeroSecreto = parseInt(Math.random() * 1001)
