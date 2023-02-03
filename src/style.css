@@ -8,6 +8,7 @@ body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   color: #fff;
+  overflow-x: hidden;
 }
 
 main {
@@ -147,9 +148,6 @@ footer svg {
 }
 
 @media(max-width: 500px) {
-  body {
-    overflow-x: hidden;
-  }
   main {
     padding: 0 10px;
   }
@@ -164,9 +162,6 @@ footer svg {
 } 
 
 @media(max-width: 410px) {
-  body {
-      overflow-x: hidden;
-  }
   #resultado {
     font-size: 18px;
   }
@@ -176,10 +171,7 @@ footer svg {
 }
 
 @media(max-width: 385px) {
-  body {
-      overflow-x: hidden;
-  }
-  #botao {
+  input#botao {
     margin-top: 15px;
   }
 }
