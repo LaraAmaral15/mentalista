@@ -56,10 +56,6 @@ body>img {
   margin: 0 10px;
 }
 
-#img-cerebro {
-  max-width: 250px;
-} 
-
 img {
   max-height: 350px;
 }
@@ -155,7 +151,9 @@ footer svg {
   main {
     padding: 0 10px;
   }
-  
+  #img-cerebro {
+    max-width: 250px;
+  }
   #gif {
     display: flex;
     justify-content: center;
