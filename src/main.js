@@ -26,8 +26,6 @@ function Chutar() {
   textoInput.style.display= 'none';
   lugarGif.style.display= 'block';
 
-  console.log(numeroSecreto)
-
   if (chute != numeroSecreto) {
     var tentativas = document.getElementById("tentativas")
     var resultado = document.getElementById("resultado")
