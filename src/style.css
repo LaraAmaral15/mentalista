@@ -163,6 +163,9 @@ footer svg {
   #gif img {
     width: 400px;
   }
+  input#botao {
+    margin-top: 15px;
+  }
 } 
 
 @media(max-width: 410px) {
@@ -171,6 +174,9 @@ footer svg {
   }
   #gif img {
       width: 350px;
+  }
+  input#botao {
+    margin-top: 15px;
   }
 }
 
