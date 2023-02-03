@@ -15,6 +15,8 @@ function Chutar() {
   textoInput.style.display= 'none';
   lugarGif.style.display= 'block';
 
+  console.log(numeroSecreto)
+
   if (chute != numeroSecreto) {
     var tentativas = document.getElementById("tentativas")
     var resultado = document.getElementById("resultado")
@@ -35,6 +37,7 @@ function Chutar() {
       lugarGif.innerHTML = `<img src="./src/img/acertou.gif">`
       contador = 0;
       Sortear()
+      return
     } else if (chute > numeroSecreto) {
       imgCerebro.style.display= 'none';
       resultado.innerHTML = "Errou... o número secreto é menor que " + chute
