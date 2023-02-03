@@ -16,7 +16,7 @@ main {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  height: 120vh;
+  height: 110vh;
 
   display: flex;
   flex-direction: column;
@@ -164,6 +164,9 @@ footer svg {
 } 
 
 @media(max-width: 410px) {
+  body {
+      overflow-x: hidden;
+  }
   #resultado {
     font-size: 18px;
   }
@@ -172,7 +175,10 @@ footer svg {
   }
 }
 
-@media(max-width: 380px) {
+@media(max-width: 385px) {
+  body {
+      overflow-x: hidden;
+  }
   #botao {
     margin-top: 15px;
   }
