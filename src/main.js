@@ -12,6 +12,7 @@ function Sortear() {
 }
 
 function Chutar() {
+
   textoInput.style.display= 'none';
   lugarGif.style.display= 'block';
 
@@ -63,6 +64,9 @@ function Chutar() {
       contador++;
       tentativas.innerHTML = "Tentativas: " + contador;
     }
+
+    // Limpar o input-chute após o usuário clicar no botão "Chutar"
+    document.getElementById('input-chute').value='';
   }
 }
 
